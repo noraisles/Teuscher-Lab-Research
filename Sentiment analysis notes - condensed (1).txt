@@ -1,0 +1,48 @@
+﻿Sentiment analysis (aka opinion mining)
+
+awesome
+epic 
+great
+gnarly
+happy
+great
+cool
+perfect
+wonderful
+
+What is it?
+Sentiment analysis is the study of people's opinions, attitudes, and emotions towards an entity. 
+
+
+What fields does it have?
+It has many different fields such as Emotion Detection (ED), Building resources (BR), and Transfer Learning (TL). 
+
+
+What are the different approaches to building this?
+There are three main approaches to building this. You can do it through machine learning, lexicon, or a hybrid of the two. 
+* Lexicon relies on a collection of known and precompiled sentiment scores (such as AFINN) and the words’ synonyms and has a numerical amount of sentiment that it attaches to each of them that it analyzes after isolating the words needed. 
+* Machine learning applies its algorithms and uses linguistic features. This category can be classified into supervised and unsupervised methods. Unsupervised ones are used when it is difficult to find training documents. 
+
+
+What does it analyze?
+Sentiment analysis analyzes many different types of datasets such as web pages/forums, reviews, articles, books, emails, and more. 
+
+
+What does it have trouble with?
+It has trouble with negations, sarcasm, and dependent clauses. 
+
+
+________________
+
+
+
+
+Ideas of how to apply it:
+
+
+1. Compare how preformative different methods of communication are
+2. Compare how often abbreviations are used opposed to regular speech
+3. Make a translator for text slang to regular communication
+4. Add bigger vocabulary to texts that are received to help people expand their vocabulary as they read it (could also be used to make drafting for vocabulary better)
+5. Could look for ____ characteristic in __________. 
+6. Analyze booktok reviews compared to
