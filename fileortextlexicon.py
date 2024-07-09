@@ -23,7 +23,7 @@ while format != "t" and format != "f":
 cleaned_text_one = text.replace("n't", " not")
 cleaned_text_two = re.sub(r'[^\w\s]', '', cleaned_text_one)
 cleaned_text_three = cleaned_text_two.lower()
-print(cleaned_text_three)
+
 afinn = {}
 
 with open('originalAFINN.txt') as file:
@@ -31,6 +31,6 @@ with open('originalAFINN.txt') as file:
         word, score = line.split('\t')
         afinn[word] = int(score)
 
+
 score = calculate(cleaned_text_three, afinn)
 print("Sentiment score: {}".format(score))
-
